@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#nt-container {
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 30%;
+    color: teal;
+    font-size: 18px;
+   
+    overflow: hidden;
+    z-index: 100;
+    pointer-events: none;
+  
+    display: flex;
+    
+    
+    flex-direction: column-reverse;
+  
+    
+    align-items: center;
+  
+    /* add some space between toasts and screen */
+    padding: 2rem;
+    gap: 1rem;
+  }
+  h1 {
+    font-size: 20px !important;
+    margin: 20px 0 20px 0 !important;
+  }
